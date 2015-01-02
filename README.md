@@ -11,8 +11,8 @@ bhshbbshbbhsbhshhbshbhshbbshbbhsbhshhbshbhshbbshbbhsbhshhbshbhshbbshbbhsbhshhbsh
 
 
 # Build
+    $ cabal sandbox init
+    $ cabal install --only-dependencies
     $ cabal configure
     $ cabal build
-    $ cabal sandbox init
-    $ cabal install
     $ ./dist/build/ringo/ringo

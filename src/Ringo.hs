@@ -1,12 +1,4 @@
-module Main where
+module Ringo where
 
-main :: IO ()
-main = repl
-
-repl :: IO ()
-repl = do putStr "$ "
-          line <- getLine
-          putStrLn (ringoParser line)
-          repl
-
+ringoParser :: String -> String
 ringoParser line = line
