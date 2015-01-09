@@ -1,4 +1,9 @@
 module Ringo where
+import Ringo.SKICore
 
-ringoParser :: String -> String
-ringoParser line = line
+-- main :: IO()
+-- main = do
+--   [path] <- getArgs
+--   code <- filter (not.isSpace) <$> readFile path
+--   input <- getContents
+--   putStr $ eval code input
