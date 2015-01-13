@@ -23,7 +23,7 @@ library
   default-language:    Haskell2010
 
 executable ringo
-  main-is:             Main.hs
+  main-is:             Interpreter.hs
   Build-depends:       base >= 4.0 && < 5, parsec
   hs-source-dirs:      src
   ghc-prof-options:    -prof -auto-all  

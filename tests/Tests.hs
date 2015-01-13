@@ -1,5 +1,6 @@
 module Main where
 
+import Ringo
 import Ringo.SKICore
 
 import Test.Framework (defaultMain)
@@ -12,6 +13,10 @@ skiTests = [ "SKI 1" ~:
 
            , "SKI 2" ~: 
                S $> K $> K $> I~=? I
+
+           , "Ringo.eval ex1" ~:
+               eval "hhs" ~=? "S"
+
            ]
 
 main :: IO ()

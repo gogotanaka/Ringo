@@ -1,5 +1,4 @@
 module Main where
-<<<<<<< HEAD
 -- import Ringo (eval)
 -- import System.IO (hFlush, stdout)
 -- 
