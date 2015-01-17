@@ -17,7 +17,7 @@ source-repository head
   location: https://github.com/gogotanaka/Ringo.git
 
 library
-  exposed-modules:     Ringo, Ringo.SKICore
+  exposed-modules:     Ringo.SKICore, Ringo.Parser
   hs-source-dirs:      src
   Build-depends:       base >= 4.0 && < 5, parsec
   default-language:    Haskell2010

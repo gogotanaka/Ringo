@@ -2,6 +2,7 @@ module Main where
 
 import Ringo
 import Ringo.SKICore
+import Ringo.Parser
 
 import Test.Framework (defaultMain)
 import Test.Framework.Providers.HUnit
